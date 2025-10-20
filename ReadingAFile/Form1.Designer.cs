@@ -57,6 +57,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "RECORDS";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // openFileDialog1
             // 
@@ -66,7 +67,9 @@
             // 
             // lvShowText
             // 
+            this.lvShowText.Alignment = System.Windows.Forms.ListViewAlignment.Left;
             this.lvShowText.HideSelection = false;
+            this.lvShowText.LabelWrap = false;
             this.lvShowText.Location = new System.Drawing.Point(31, 22);
             this.lvShowText.Name = "lvShowText";
             this.lvShowText.Size = new System.Drawing.Size(415, 271);

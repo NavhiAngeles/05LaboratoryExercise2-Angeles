@@ -13,9 +13,11 @@ namespace ReadingAFile
 {
     public partial class Form1 : Form
     {
+        FrmStudentRecord studRec = new FrmStudentRecord();
         public Form1()
         {
             InitializeComponent();
+            
         }
         public void DisplaytoList(string path)
         {
@@ -44,6 +46,13 @@ namespace ReadingAFile
         private void button1_Click(object sender, EventArgs e)
         {
             DisplaytoList(openFileDialog1.FileName);
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            studRec.Show();
+            this.Hide();
         }
     }
 }
