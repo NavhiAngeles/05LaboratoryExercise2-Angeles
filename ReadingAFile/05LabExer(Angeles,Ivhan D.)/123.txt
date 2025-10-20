@@ -1,0 +1,7 @@
+Student Number: 123
+Full Name: we,ee,A.
+Program: BSCS
+Gender: Male
+Age: 2
+Birthday: 2025-10-20
+Contact Number: 213123123

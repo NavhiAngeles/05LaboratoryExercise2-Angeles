@@ -49,6 +49,7 @@
             this.ComboProgram = new System.Windows.Forms.ComboBox();
             this.dtpBirthday = new System.Windows.Forms.DateTimePicker();
             this.btnRegister = new System.Windows.Forms.Button();
+            this.BTNRECORDS = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -236,6 +237,19 @@
             this.btnRegister.TabIndex = 20;
             this.btnRegister.Text = "REGISTER";
             this.btnRegister.UseVisualStyleBackColor = false;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            // 
+            // BTNRECORDS
+            // 
+            this.BTNRECORDS.BackColor = System.Drawing.Color.DimGray;
+            this.BTNRECORDS.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNRECORDS.Location = new System.Drawing.Point(344, 451);
+            this.BTNRECORDS.Name = "BTNRECORDS";
+            this.BTNRECORDS.Size = new System.Drawing.Size(139, 56);
+            this.BTNRECORDS.TabIndex = 21;
+            this.BTNRECORDS.Text = "RECORDS";
+            this.BTNRECORDS.UseVisualStyleBackColor = false;
+            this.BTNRECORDS.Click += new System.EventHandler(this.BTNRECORDS_Click);
             // 
             // FrmRegistration
             // 
@@ -244,6 +258,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(847, 531);
+            this.Controls.Add(this.BTNRECORDS);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.dtpBirthday);
             this.Controls.Add(this.ComboProgram);
@@ -292,5 +307,6 @@
         private System.Windows.Forms.ComboBox ComboProgram;
         private System.Windows.Forms.DateTimePicker dtpBirthday;
         private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Button BTNRECORDS;
     }
 }

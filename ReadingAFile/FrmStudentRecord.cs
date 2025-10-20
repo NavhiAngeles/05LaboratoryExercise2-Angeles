@@ -22,6 +22,7 @@ namespace ReadingAFile
         private void btnUpload_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Succesfully Uploaded!");
+            lvViewRec.Items.Clear();
             
         }
 
@@ -33,7 +34,7 @@ namespace ReadingAFile
 
         private void btnFind_Click(object sender, EventArgs e)
         {
-
+          
         }
     }
 }

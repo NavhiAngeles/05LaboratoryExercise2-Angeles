@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStudentRecord));
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvViewRec = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnFind = new System.Windows.Forms.Button();
             this.btnUpload = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // listView1
+            // lvViewRec
             // 
-            this.listView1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(34, 66);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(458, 246);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.lvViewRec.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.lvViewRec.HideSelection = false;
+            this.lvViewRec.Location = new System.Drawing.Point(34, 66);
+            this.lvViewRec.Name = "lvViewRec";
+            this.lvViewRec.Size = new System.Drawing.Size(458, 246);
+            this.lvViewRec.TabIndex = 0;
+            this.lvViewRec.UseCompatibleStateImageBehavior = false;
             // 
             // label1
             // 
@@ -104,7 +104,7 @@
             this.Controls.Add(this.btnFind);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.lvViewRec);
             this.Name = "FrmStudentRecord";
             this.Text = "FrmStudentRecord";
             this.ResumeLayout(false);
@@ -114,7 +114,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView lvViewRec;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Button btnFind;
