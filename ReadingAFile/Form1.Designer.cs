@@ -68,6 +68,7 @@
             // lvShowText
             // 
             this.lvShowText.Alignment = System.Windows.Forms.ListViewAlignment.Left;
+            this.lvShowText.FullRowSelect = true;
             this.lvShowText.HideSelection = false;
             this.lvShowText.LabelWrap = false;
             this.lvShowText.Location = new System.Drawing.Point(31, 22);

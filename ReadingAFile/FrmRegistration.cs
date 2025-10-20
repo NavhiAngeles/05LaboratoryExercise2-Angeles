@@ -72,7 +72,9 @@ namespace ReadingAFile
 
         private void BTNRECORDS_Click(object sender, EventArgs e)
         {
-           
+            FrmStudentRecord studentRecordForm = new FrmStudentRecord();
+            studentRecordForm.Show();
+            this.Hide();
         }
     }
 }

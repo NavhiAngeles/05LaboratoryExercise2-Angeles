@@ -1,0 +1,7 @@
+Student Number: 666
+Full Name: asd,asd,a.
+Program: BSIT
+Gender: Male
+Age: 12
+Birthday: 2025-10-20
+Contact Number: 12312312

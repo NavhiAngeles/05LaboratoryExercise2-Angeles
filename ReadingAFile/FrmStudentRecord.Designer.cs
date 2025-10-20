@@ -34,6 +34,7 @@
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnFind = new System.Windows.Forms.Button();
             this.btnUpload = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // lvViewRec
@@ -45,6 +46,7 @@
             this.lvViewRec.Size = new System.Drawing.Size(458, 246);
             this.lvViewRec.TabIndex = 0;
             this.lvViewRec.UseCompatibleStateImageBehavior = false;
+            this.lvViewRec.View = System.Windows.Forms.View.List;
             // 
             // label1
             // 
@@ -93,6 +95,10 @@
             this.btnUpload.UseVisualStyleBackColor = false;
             this.btnUpload.Click += new System.EventHandler(this.btnUpload_Click);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // FrmStudentRecord
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -119,5 +125,6 @@
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.Button btnUpload;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
